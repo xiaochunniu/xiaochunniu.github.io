@@ -14,7 +14,7 @@ This guide will help you update your academic homepage and deploy changes to Git
 
 ### 1. Adding/Updating Publications
 
-Edit `my-homepage/app/page.tsx` and find the relevant section:
+Edit `my-homepage/app/page.tsx` and find the relevant sections:
 
 **Working Papers** (line 33):
 ```typescript
