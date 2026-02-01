@@ -97,6 +97,7 @@ cd my-homepage
 ```bash
 npm run build
 ```
+Note if you see some errors like "command not found", please run `npm install`.
 
 ### Step 3: Copy build output to repository root
 **Run from: my-homepage directory**
