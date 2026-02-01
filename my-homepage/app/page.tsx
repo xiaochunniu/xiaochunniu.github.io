@@ -182,9 +182,9 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
                 <span>{p.title}</span>
               )}
             </div>
-            <div className="text-sm opacity-80">{p.authors.join(", ")}</div>
-            <div className="text-sm opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
-            {p.note && <div className="text-sm opacity-70 italic mt-1">{p.note}</div>}
+            <div className="text-base opacity-80">{p.authors.join(", ")}</div>
+            <div className="text-base opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
+            {p.note && <div className="text-base opacity-70 italic mt-1">{p.note}</div>}
             {p.award && (
               <div className="mt-2 font-bold text-lg" style={{ color: "#4E2A84" }}>
                 {p.award}
