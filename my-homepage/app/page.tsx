@@ -32,15 +32,8 @@ const LINKS = {
 // === Data ===
 const WORKING_PAPERS = [
   {
-    year: "2025+",
-    title: "Optimality of Random Regular Graphs for Sparse Flexibility Designs",
-    authors: ["Weijia Li", "Xiaochun Niu", "Yehua Wei", "Jiaming Xu"],
-    venue: "Working Paper",
-    links: {},
-  },
-  {
-    year: "2025+",
-    title: "Approximate Random Geometric Graph Matching",
+    year: "2026+",
+    title: "Procrustes-Wasserstein Matching: Fundamental Limit and Efficient Algorithm",
     authors: ["Xiaochun Niu", "Tselil Schramm", "Jiaming Xu"],
     venue: "Working Paper",
     links: {},
@@ -49,7 +42,14 @@ const WORKING_PAPERS = [
 
 const JOURNAL_PAPERS = [
   {
-    year: "2025+",
+    year: "2026+",
+    title: "Optimality of Random Regular Graphs in Sparse Network Designs",
+    authors: ["Weijia Li", "Xiaochun Niu", "Yehua Wei", "Jiaming Xu"],
+    venue: "Submitted",
+    links: {},
+  },
+  {
+    year: "2026+",
     title: "Learning with Shared Representations: Statistical Rates and Efficient Algorithms",
     authors: ["Xiaochun Niu", "Lili Su", "Jiaming Xu", "Pengkun Yang"],
     venue: "Submitted",
@@ -57,7 +57,7 @@ const JOURNAL_PAPERS = [
     links: { arxiv: "https://arxiv.org/abs/2409.04919" },
   },
   {
-    year: "2025+",
+    year: "2026+",
     title: "Exact Label Recovery in Euclidean Random Graphs",
     authors: ["Julia Gaudio", "Charlie Guan", "Xiaochun Niu", "Ermin Wei"],
     venue: "Major Revision, Annals of Applied Probability",
