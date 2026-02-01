@@ -172,8 +172,8 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
       {sorted.map((p, i) => {
         const href = paperHref(p.links);
         return (
-          <li key={i} className="leading-relaxed text-base md:text-lg">
-            <div className="font-medium">
+          <li key={i} className="leading-relaxed">
+            <div className="font-medium text-lg">
               {href ? (
                 <a href={href} target="_blank" rel="noreferrer" className="underline hover:opacity-80">
                   {p.title}
@@ -182,9 +182,9 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
                 <span>{p.title}</span>
               )}
             </div>
-            <div className="opacity-80">{p.authors.join(", ")}</div>
-            <div className="opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
-            {p.note && <div className="text-xs opacity-70 italic mt-1">{p.note}</div>}
+            <div className="text-sm opacity-80">{p.authors.join(", ")}</div>
+            <div className="text-sm opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
+            {p.note && <div className="text-sm opacity-70 italic mt-1">{p.note}</div>}
             {p.award && (
               <div className="mt-2 font-bold text-lg" style={{ color: "#4E2A84" }}>
                 {p.award}
