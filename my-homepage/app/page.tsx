@@ -55,7 +55,7 @@ const JOURNAL_PAPERS = [
     title: "Learning with Shared Representations: Statistical Rates and Efficient Algorithms",
     authors: ["Xiaochun Niu", "Lili Su", "Jiaming Xu", "Pengkun Yang"],
     venue: "Submitted",
-    note: "Oral presentation at International Workshop on Federated Foundation Models (NeurIPS 2024)",
+    note: "Oral presentation at International Workshop on Federated Foundation Models in conjunction with NeurIPS 2024 (FL@FM-NeurIPS 2024)",
     links: { arxiv: "https://arxiv.org/abs/2409.04919" },
   },
   {
@@ -70,7 +70,7 @@ const JOURNAL_PAPERS = [
     title: "DISH: A Distributed Hybrid Optimization Method Leveraging System Heterogeneity",
     authors: ["Xiaochun Niu", "Ermin Wei"],
     venue: "IEEE Transactions on Signal Processing",
-    note: "Extended abstract in Allerton Conference, 2022",
+    note: "Extended abstract in Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2022",
     links: { arxiv: "https://arxiv.org/abs/2212.02638" },
   },
   {
