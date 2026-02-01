@@ -29,6 +29,8 @@ const LINKS = {
   // May be empty; component guards against empty strings.
 } as const;
 
+const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "February 2026";
+
 // === Data ===
 const WORKING_PAPERS = [
   {
@@ -170,8 +172,8 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
       {sorted.map((p, i) => {
         const href = paperHref(p.links);
         return (
-          <li key={i} className="leading-relaxed">
-            <div className="font-medium text-lg">
+          <li key={i} className="leading-relaxed text-base md:text-lg">
+            <div className="font-medium">
               {href ? (
                 <a href={href} target="_blank" rel="noreferrer" className="underline hover:opacity-80">
                   {p.title}
@@ -180,8 +182,8 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
                 <span>{p.title}</span>
               )}
             </div>
-            <div className="text-sm opacity-80">{p.authors.join(", ")}</div>
-            <div className="text-sm opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
+            <div className="opacity-80">{p.authors.join(", ")}</div>
+            <div className="opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
             {p.note && <div className="text-xs opacity-70 italic mt-1">{p.note}</div>}
             {p.award && (
               <div className="mt-2 font-bold text-lg" style={{ color: "#4E2A84" }}>
@@ -302,7 +304,7 @@ export default function AcademicHomepage() {
 
       <footer className="border-t py-12">
         <div className="max-w-6xl mx-auto px-8 text-base opacity-80">
-          © {new Date().getFullYear()} {PROFILE.name}. Last updated {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}.
+          © {new Date().getFullYear()} {PROFILE.name} 牛晓纯. Last updated {LAST_UPDATED}.
         </div>
       </footer>
     </div>
