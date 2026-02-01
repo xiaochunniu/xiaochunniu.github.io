@@ -14,7 +14,7 @@ const PROFILE = {
   name: "Xiaochun (Nora) Niu",
   email: "xiaochun.niu@duke.edu",
   // Public image URL (GitHub raw). Replace with your own domain when ready.
-  avatar: "https://raw.githubusercontent.com/xniu01/xniu.github.io/refs/heads/main/xniu.jpg",
+  avatar: "https://raw.githubusercontent.com/xiaochunniu/xiaochunniu.github.io/main/xniu.jpg",
   blurb1:
     "I am a postdoctoral researcher in Decision Sciences at the Fuqua School of Business, Duke University, working with Prof. Jiaming Xu. I received my Ph.D. from the Department of Industrial Engineering and Management Sciences at Northwestern University, where I was advised by Prof. Ermin Wei and Prof. Julia Gaudio, and my B.S. in Mathematics from Nanjing University.",
   blurb2:
