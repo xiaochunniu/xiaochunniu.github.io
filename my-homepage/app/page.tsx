@@ -48,7 +48,7 @@ const JOURNAL_PAPERS = [
     title: "Optimality of Random Regular Graphs in Sparse Network Designs",
     authors: ["Weijia Li", "Xiaochun Niu", "Yehua Wei", "Jiaming Xu"],
     venue: "Submitted",
-    links: {},
+    links: { arxiv: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6222958" },
   },
   {
     year: "2026+",
