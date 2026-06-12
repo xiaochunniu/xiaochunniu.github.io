@@ -58,7 +58,7 @@ const JOURNAL_PAPERS = [
     links: { arxiv: "https://arxiv.org/abs/2409.04919" },
   },
   {
-    year: "2026+",
+    year: "2026",
     title: "Exact Label Recovery in Euclidean Random Graphs",
     authors: ["Julia Gaudio", "Charlie Guan", "Xiaochun Niu", "Ermin Wei"],
     venue: "Annals of Applied Probability",
