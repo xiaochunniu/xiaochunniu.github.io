@@ -22,7 +22,7 @@ const PROFILE = {
 } as const;
 
 const LINKS = {
-  cv: "https://docs.google.com/viewer?url=https://github.com/xniu01/xniu.github.io/raw/main/Xiaochun_Niu_CV.pdf",
+  cv: "/Xiaochun_Niu_CV.pdf",
   scholar: "https://scholar.google.com.hk/citations?hl=en&user=fkB0e1IAAAAJ&view_op=list_works&sortby=pubdate",
   // github: "https://github.com/xniu01",
   linkedin: "https://www.linkedin.com/in/xiaochun-niu-8b615b1a0/",
