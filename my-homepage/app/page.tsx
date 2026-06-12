@@ -29,25 +29,24 @@ const LINKS = {
   // May be empty; component guards against empty strings.
 } as const;
 
-const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "February 2026";
+const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "June 2026";
 
 // === Data ===
-const WORKING_PAPERS = [
-  {
-    year: "2026+",
-    title: "Procrustes-Wasserstein Matching: Fundamental Limit and Efficient Algorithm",
-    authors: ["Xiaochun Niu", "Tselil Schramm", "Jiaming Xu"],
-    venue: "Working Paper",
-    links: {},
-  },
-] as const;
 
 const JOURNAL_PAPERS = [
+  {
+    year: "2026+",
+    title: "High-dimensional Procrustes Matching via Tree Counts",
+    authors: ["Xiaochun Niu", "Tselil Schramm", "Jiaming Xu"],
+    venue: "",
+    links: {},
+  },
   {
     year: "2026+",
     title: "Optimality of Random Regular Graphs in Sparse Network Designs",
     authors: ["Weijia Li", "Xiaochun Niu", "Yehua Wei", "Jiaming Xu"],
     venue: "Submitted",
+    note: "Accepted for presentation at 2026 INFORMS Manufacturing and Service Operations Management (MSOM) Annual Conference",
     links: { arxiv: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6222958" },
   },
   {
@@ -83,6 +82,13 @@ const JOURNAL_PAPERS = [
 ] as const;
 
 const CONFERENCE_PAPERS = [
+  {
+    year: 2026,
+    title: "Optimality of Random Regular Graphs for Sparse Network Designs",
+    authors: ["Weijia Li", "Xiaochun Niu", "Yehua Wei", "Jiaming Xu"],
+    venue: "ACM Conference on Economics and Computation (EC)",
+    links: { arxiv: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6222958" },
+  },
   {
     year: 2025,
     title: "Incentive Analysis for Agent Participation in Federated Learning",
@@ -184,7 +190,7 @@ function PaperList({ papers }: { papers: ReadonlyArray<{
             </div>
             <div className="text-base opacity-80">{p.authors.join(", ")}</div>
             <div className="text-base opacity-80">{p.venue}{p.year ? `, ${p.year}` : ""}</div>
-            {p.note && <div className="text-base opacity-70 italic mt-1">{p.note}</div>}
+            {p.note && <div className="text-base opacity-70 mt-1">{p.note}</div>}
             {p.award && (
               <div className="mt-2 font-bold text-lg" style={{ color: "#4E2A84" }}>
                 {p.award}
@@ -290,9 +296,6 @@ export default function AcademicHomepage() {
         {/* Publications */}
         <section className="mt-24" id="publications">
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-10">Preprints and Publications</h2>
-
-          <h3 className="text-2xl font-semibold mb-4">Working Papers</h3>
-          <PaperList papers={WORKING_PAPERS} />
 
           <h3 className="text-2xl font-semibold mb-4 mt-16">Journal Papers</h3>
           <PaperList papers={JOURNAL_PAPERS} />
