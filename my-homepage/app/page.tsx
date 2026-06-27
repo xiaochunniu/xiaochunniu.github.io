@@ -18,7 +18,7 @@ const PROFILE = {
   blurb1:
     "I am a postdoctoral researcher in Decision Sciences at the Fuqua School of Business, Duke University, working with Prof. Jiaming Xu. I received my Ph.D. from the Department of Industrial Engineering and Management Sciences at Northwestern University, where I was advised by Prof. Ermin Wei and Prof. Julia Gaudio, and my B.S. in Mathematics from Nanjing University.",
   blurb2:
-    "My research interests lie at the intersection of operations research, artificial intelligence, and data analytics. I am developing theoretical foundations and efficient algorithms for data-driven decision-making in large-scale stochastic and networked systems, with applications in business, engineering, and the natural sciences. My recent work has explored topics on sparse flexibility design, community detection and matching in random geometric graphs, and multi-agent learning under heterogeneity.",
+    "My research interests lie at the intersection of operations research, artificial intelligence, and data analytics. I develop theoretical foundations and efficient algorithms for data-driven decision-making in large-scale stochastic and networked systems, with applications in business, engineering, and the natural sciences. My recent work has explored sparse network design, community detection and matching in random geometric graphs, and multi-agent and multi-source learning under heterogeneity.",
 } as const;
 
 const LINKS = {
