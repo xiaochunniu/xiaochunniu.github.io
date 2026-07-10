@@ -29,17 +29,17 @@ const LINKS = {
   // May be empty; component guards against empty strings.
 } as const;
 
-const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "June 2026";
+const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "July 2026";
 
 // === Data ===
 
 const JOURNAL_PAPERS = [
   {
     year: "2026+",
-    title: "High-dimensional Procrustes Matching via Tree Counts",
+    title: "High-Dimensional Procrustes Matching via Tree Counts",
     authors: ["Xiaochun Niu", "Tselil Schramm", "Jiaming Xu"],
     venue: "",
-    links: {},
+    links: {arxiv: "https://arxiv.org/abs/2607.08538"},
   },
   {
     year: "2026+",
