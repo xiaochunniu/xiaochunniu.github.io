@@ -42,7 +42,7 @@ const JOURNAL_PAPERS = [
       {
         label: "Oral presentation at",
         event:
-          "2026 INFORMS Manufacturing and Service Operations Management (MSOM) Annual Conference",
+          "INFORMS Manufacturing and Service Operations Management (MSOM) Annual Conference 2026",
       },
     ],
     links: {
@@ -54,12 +54,17 @@ const JOURNAL_PAPERS = [
     title:
       "Learning with Shared Representations: Statistical Rates and Efficient Algorithms",
     authors: ["Xiaochun Niu", "Lili Su", "Jiaming Xu", "Pengkun Yang"],
-    venue: "Submitted",
+    venue: "Minor revision at Journal of Machine Learning Research",
     notes: [
       {
         label: "Oral presentation at",
         event:
           "International Workshop on Federated Foundation Models in conjunction with NeurIPS 2024 (FL@FM-NeurIPS 2024)",
+      },
+      {
+        label: "Oral presentation at",
+        event:
+          "INFORMS Workshop on Data Science 2026",
       },
     ],
     links: { arxiv: "https://arxiv.org/abs/2409.04919" },
@@ -81,7 +86,7 @@ const JOURNAL_PAPERS = [
       {
         label: "Extended abstract at",
         event:
-          "Annual Allerton Conference on Communication, Control, and Computing (Allerton), 2022",
+          "Annual Allerton Conference on Communication, Control, and Computing (Allerton) 2022",
       },
     ],
     links: { arxiv: "https://arxiv.org/abs/2212.02638" },
