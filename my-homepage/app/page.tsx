@@ -9,7 +9,7 @@ const PROFILE = {
   email: "xiaochun.niu@duke.edu",
   avatar: "/xniu.jpg",
   researchSummary:
-    "My research interests lie at the intersection of operations research, artificial intelligence, and data analytics. I develop theoretical foundations and efficient algorithms for data-driven decision-making in large-scale stochastic and networked systems, with applications in business, engineering, and the natural sciences. My recent work has explored sparse network design, community detection and matching in random geometric graphs, and multi-agent and multi-source learning under heterogeneity.",
+    "My research interests lie at the intersection of operations research, machine learning, and network science. I advance theoretical understanding and develop efficient methods for learning and decision-making in large-scale stochastic and networked systems, often in the presence of heterogeneity and information or resource constraints. My recent work has explored sparse network design, community detection and matching in random geometric graphs, and multi-agent and multi-source learning, with applications in business, engineering, and the natural sciences.",
 } as const;
 
 const LINKS = {
