@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+7:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+:HL["/_next/static/chunks/ec8ac9768f30bad8.css","style"]
+0:{"buildId":"j0JI4kDLgHTL_c0IzfEmd","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"head":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],null]}],"isHeadPartial":false,"staleTime":300}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#fdfcf9"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]
+6:[["$","title","0",{"children":"Xiaochun (Nora) Niu"}],["$","meta","1",{"name":"description","content":"Postdoctoral researcher in Decision Sciences at Duke University, working across operations research, artificial intelligence, and data analytics."}],["$","meta","2",{"name":"author","content":"Xiaochun (Nora) Niu"}],["$","meta","3",{"name":"keywords","content":"operations research,artificial intelligence,data analytics,network science,federated learning"}],["$","link","4",{"rel":"icon","href":"/icon.svg?icon.05e8cd66.svg","sizes":"any","type":"image/svg+xml"}],["$","$L7","5",{}]]

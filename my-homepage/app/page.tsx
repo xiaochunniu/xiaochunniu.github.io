@@ -19,21 +19,23 @@ const LINKS = {
   linkedin: "https://www.linkedin.com/in/xiaochun-niu-8b615b1a0/",
 } as const;
 
-const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "August 2026";
+const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "September 2026";
 
 const JOURNAL_PAPERS = [
   {
     year: "2026",
     title: "High-Dimensional Procrustes Matching via Tree Counts",
     authors: ["Xiaochun Niu", "Tselil Schramm", "Jiaming Xu"],
-    venue: "",
+    status: "Submitted to",
+    venue: "Annals of Applied Probability",
     links: { arxiv: "https://arxiv.org/abs/2607.08538" },
   },
   {
     year: "2026",
     title: "Optimality of Random Regular Graphs in Sparse Network Designs",
     authors: ["Weijia Li", "Xiaochun Niu", "Yehua Wei", "Jiaming Xu"],
-    venue: "Major revision at Operations Research",
+    status: "Major revision at",
+    venue: "Operations Research",
     notes: [
       {
         event:
@@ -54,7 +56,8 @@ const JOURNAL_PAPERS = [
     title:
       "Learning with Shared Representations: Statistical Rates and Efficient Algorithms",
     authors: ["Xiaochun Niu", "Lili Su", "Jiaming Xu", "Pengkun Yang"],
-    venue: "Minor revision at Journal of Machine Learning Research",
+    status: "Accepted for publication conditioned on minor revisions at",
+    venue: "Journal of Machine Learning Research",
     notes: [
       {
         label: "Oral presentation at",
@@ -152,6 +155,7 @@ type Paper = {
   year: number | string;
   title: string;
   authors: readonly string[];
+  status?: string;
   venue: string;
   links?: { pdf?: string; arxiv?: string; doi?: string };
   notes?: readonly { label?: string; event: string }[];
@@ -219,6 +223,7 @@ function PaperList({ papers }: { papers: readonly Paper[] }) {
               </h3>
               <AuthorList authors={paper.authors} />
               <p className="paper-venue">
+                {paper.status && <>{paper.status} </>}
                 <span className="venue-name">{paper.venue || "Preprint"}</span>,{" "}
                 {paper.year}
               </p>
