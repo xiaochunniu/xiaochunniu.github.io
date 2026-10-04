@@ -19,7 +19,7 @@ const LINKS = {
   linkedin: "https://www.linkedin.com/in/xiaochun-niu-8b615b1a0/",
 } as const;
 
-const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "September 2026";
+const LAST_UPDATED = process.env.NEXT_PUBLIC_LAST_UPDATED || "October 2026";
 
 const JOURNAL_PAPERS = [
   {
